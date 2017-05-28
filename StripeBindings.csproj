@@ -44,7 +44,6 @@
     <NativeReference Include="libStripe.a">
       <Kind>Static</Kind>
       <ForceLoad>True</ForceLoad>
-      <LinkerFlags>LinkTarget.Simulator | LinkTarget.ArmV7 | LinkTarget.ArmV7s | LinkTarget.Simulator64 | LinkTarget.Arm64</LinkerFlags>
     </NativeReference>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.ObjCBinding.CSharp.targets" />
